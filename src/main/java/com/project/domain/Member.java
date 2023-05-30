@@ -3,7 +3,6 @@ package com.project.domain;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-
 import javax.persistence.*;
 
 @Entity
@@ -16,7 +15,7 @@ public class Member {
     @Column(name = "member_id")
     private Long id;
 
-    private String email;
+    private String address;
 
     private String name;
 
